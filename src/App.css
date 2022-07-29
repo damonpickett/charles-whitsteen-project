@@ -4,6 +4,11 @@
 /* font-family: 'Bangers', cursive; */
 /* font-family: 'Orbitron', sans-serif; */
 
+body {
+  background-color: rgb(25, 22, 22);
+  color: white;
+}
+
 .App {
   font-family: 'Courier New', Courier, monospace
 }
@@ -11,6 +16,7 @@
 h1, h2, h3 {
   font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
+  color:rgb(255, 0, 0);
 }
 
 /* NAVIGATION */
@@ -37,23 +43,29 @@ h1, h2, h3 {
   margin-right: 20px;
   font-family: 'Metal Mania', cursive;
   font-size: 20px;
+  color: greenyellow;
 }
 
 .nav button {
   margin-right: 20px;
   height: 30px;
   font-family: 'Bangers', cursive;
+  background-color: rgb(245, 164, 72);
+  border: none;
 }
 
 /* INTRO */
 
 .disclaimer {
-  margin-top: 15px;
+  margin-top: 35px;
   font-style: italic;
+  margin-bottom: 50px;
 }
 
 .intro {
   text-align: center;
+  margin-bottom: 100px;
+  font-size: 20px;
 }
 
 /* COLLECTION */
@@ -61,7 +73,7 @@ h1, h2, h3 {
 .collection {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 40px;
+  margin: 50px 0 50px;
 }
 
 /* ABOUT */
@@ -70,6 +82,18 @@ h1, h2, h3 {
   margin-top: 105px;
   text-align: center;
 }
+
+.story, .community {
+  margin-bottom: 70px;
+  padding: 0 100px 0;
+  font-size: 20px;
+}
+
+.community button {
+  height: 30px;
+  font-family: 'Bangers', cursive;
+}
+
 
 /* ROADMAP */
 
