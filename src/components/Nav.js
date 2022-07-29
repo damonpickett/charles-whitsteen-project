@@ -4,10 +4,12 @@ function Nav() {
   return (
       <div className='nav'>
         <ul>
-          <li>About</li>
           <li>Collection</li>
+          <li>About</li>
           <li>Roadmap</li>
         </ul>
+
+        <button>Instructions</button>
       </div>
   );
 }

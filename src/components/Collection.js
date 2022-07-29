@@ -1,8 +1,13 @@
 import '../App.css';
+import Piece from './Piece';
 
 function Collection() {
   return (
-      <div className='collection'></div>
+      <div className='collection'>
+        <Piece />
+        <Piece />
+        <Piece />
+      </div>
   );
 }
 
