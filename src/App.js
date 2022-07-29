@@ -4,6 +4,7 @@ import Intro from './components/Intro';
 import Collection from './components/Collection';
 import About from './components/About';
 import Roadmap from './components/Roadmap';
+import Social from './components/Social';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Collection />
       <About />
       <Roadmap />
+      <Social />
     </div>
   );
 }

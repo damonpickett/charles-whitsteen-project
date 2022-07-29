@@ -8,8 +8,10 @@ function Nav() {
           <li>About</li>
           <li>Roadmap</li>
         </ul>
-
-        <button>Instructions</button>
+        <ul>
+          <li><button>Instructions</button></li>
+          <li><button>Connect Wallet</button></li>
+        </ul>
       </div>
   );
 }
