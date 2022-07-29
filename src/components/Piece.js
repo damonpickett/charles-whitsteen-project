@@ -1,8 +1,10 @@
 import '../App.css';
 
-function Piece() {
+function Piece(props) {
   return (
-      <div className='piece'>Piece</div>
+      <div className='piece'>
+        <img src={props.src} alt={props.alt}></img>
+      </div>
   );
 }
 
