@@ -7,6 +7,7 @@ function Nav() {
           <li>Collection</li>
           <li>About</li>
           <li>Roadmap</li>
+          <li>Contact</li>
         </ul>
         <ul>
           <li><button>Instructions</button></li>
