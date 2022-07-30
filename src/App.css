@@ -85,7 +85,8 @@ h1, h2, h3 {
 .intro p {
   text-shadow: 2px 2px black;
   font-weight: bold;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
+  line-height: 35px;
 }
 
 .link-button {
@@ -102,7 +103,7 @@ h1, h2, h3 {
 }
 
 .collection-canvas {
-  background-color: rgba(51, 49, 49, 0.9);
+  background-color: rgba(51, 49, 49, 0.8);
   padding: 25px 50px 35px;
 }
 
@@ -127,6 +128,41 @@ h1, h2, h3 {
   color: greenyellow;
 }
 
+.increments {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.increments input {
+  height: 50px;
+  margin: 0 20px;
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  font-size: 16px;
+}
+
+.incdec {
+  color: white;
+  background-color: rgb(245, 164, 72);
+  border: none;
+  font-family: 'Bangers', cursive;
+  font-size: 35px;
+  height: 50px;
+  width: 50px;
+}
+
+.mint-button button{
+  background-color: rgb(245, 164, 72);
+  color: white;
+  font-family: 'Bangers', cursive;
+  border: none;
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
 /* ABOUT */
 
 .about {
@@ -145,9 +181,18 @@ h1, h2, h3 {
   font-size: 20px;
 }
 
-.community button {
+.story button, .community button {
   height: 30px;
   font-family: 'Bangers', cursive;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content p {
+  max-width: 500px;
 }
 
 
