@@ -127,6 +127,41 @@ h1, h2, h3 {
   color: greenyellow;
 }
 
+.increments {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.increments input {
+  height: 50px;
+  margin: 0 20px;
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  font-size: 16px;
+}
+
+.incdec {
+  color: white;
+  background-color: rgb(245, 164, 72);
+  border: none;
+  font-family: 'Bangers', cursive;
+  font-size: 35px;
+  height: 50px;
+  width: 50px;
+}
+
+.mint-button button{
+  background-color: rgb(245, 164, 72);
+  color: white;
+  font-family: 'Bangers', cursive;
+  border: none;
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
 /* ABOUT */
 
 .about {
