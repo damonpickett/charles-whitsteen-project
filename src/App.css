@@ -5,8 +5,19 @@
 /* font-family: 'Orbitron', sans-serif; */
 
 body {
+  background-image: url('./images/landscape.png');
   background-color: rgb(25, 22, 22);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: white;
+  
+}
+
+a {
+  text-decoration: none;
+  text-shadow: none;
+  color: rgb(44, 246, 44)
 }
 
 .App {
@@ -16,15 +27,15 @@ body {
 h1, h2, h3 {
   font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
-  color:rgb(255, 0, 0);
+  color:black;
+  text-shadow: 2px 2px #ff0000;
 }
 
 /* NAVIGATION */
 
 .nav {
-  background-color: rgb(39, 36, 36);
+  background-color: rgba(39, 36, 36, 0.9);
   color: white;
-  opacity: 0.9;
   padding: 8px 0;
   display: flex;
   justify-content: space-between;
@@ -56,24 +67,64 @@ h1, h2, h3 {
 
 /* INTRO */
 
-.disclaimer {
-  margin-top: 35px;
-  font-style: italic;
-  margin-bottom: 50px;
-}
-
 .intro {
   text-align: center;
   margin-bottom: 100px;
   font-size: 20px;
+  padding: 0 200px 0;
+}
+
+.disclaimer {
+  margin-top: 35px;
+  font-style: italic;
+  margin-bottom: 50px;
+  font-size: 15px;
+  text-shadow: none;
+}
+
+.intro p {
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.link-button {
+  padding: 10px 15px;
+  font-family: 'Bangers', cursive;
+  background-color: rgb(245, 164, 72);
+  color:black;
 }
 
 /* COLLECTION */
 
 .collection {
+  margin: 50px 0 50px;
+}
+
+.collection-canvas {
+  background-color: rgba(51, 49, 49, 0.9);
+  padding: 25px 50px 35px;
+}
+
+.collection-canvas h2 {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 45px;
+  color: white;
+}
+
+.pieces {
   display: flex;
   justify-content: space-evenly;
-  margin: 50px 0 50px;
+}
+
+.piece {
+  text-align: center;
+}
+
+.piece h3 {
+  font-family: 'Metal Mania', cursive;
+  color: greenyellow;
 }
 
 /* ABOUT */
@@ -81,6 +132,11 @@ h1, h2, h3 {
 .about {
   margin-top: 105px;
   text-align: center;
+}
+
+.about p {
+  text-shadow: 2px 2px black;
+  font-weight: bold;
 }
 
 .story, .community {
