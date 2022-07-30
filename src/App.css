@@ -85,7 +85,8 @@ h1, h2, h3 {
 .intro p {
   text-shadow: 2px 2px black;
   font-weight: bold;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
+  line-height: 35px;
 }
 
 .link-button {
@@ -102,7 +103,7 @@ h1, h2, h3 {
 }
 
 .collection-canvas {
-  background-color: rgba(51, 49, 49, 0.9);
+  background-color: rgba(51, 49, 49, 0.8);
   padding: 25px 50px 35px;
 }
 
@@ -180,9 +181,18 @@ h1, h2, h3 {
   font-size: 20px;
 }
 
-.community button {
+.story button, .community button {
   height: 30px;
   font-family: 'Bangers', cursive;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content p {
+  max-width: 500px;
 }
 
 
