@@ -196,12 +196,12 @@ h1, h2, h3 {
 }
 
 .content img {
-  border: 5px solid rgb(25, 22, 22);;
+  border: 5px solid rgb(25, 22, 22);
 }
 
 .content button {
   background-color: rgb(245, 164, 72);
-  border: none;
+  border: 3px solid rgb(25, 22, 22);
   display: block;
   margin: 0 auto;
   font-size: 25px;
