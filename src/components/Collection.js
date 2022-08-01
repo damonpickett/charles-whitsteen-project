@@ -13,7 +13,6 @@ function Collection() {
 
   return (
       <div className='collection'>
-        <a name='collection'></a>
         <div className='collection-canvas'>
           <h2>Gotta Collect 'em all!</h2>
           <div className='pieces'>
@@ -40,6 +39,7 @@ function Collection() {
             />
           </div>
         </div>
+        <div id='about'></div>
       </div>
   );
 }
