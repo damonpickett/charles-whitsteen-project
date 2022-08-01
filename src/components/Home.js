@@ -12,7 +12,9 @@ function Intro() {
         <p>Every purchase helps fund <a href='https://flyingfurrescue.wixsite.com/rescue' rel='noreferrer' target='_blank'>Flying Fur Rescue</a> to help save doggies, kitties, and other friendly little critters.</p>
         <p>Whenever a Roadmap goal is reached, more art by Charles Whitsteen is unlocked.</p>
         <a href='https://opensea.io/' className='link-button' rel='noreferrer' target='_blank'>View on OpenSea</a>
+        <div id='collection'></div>
       </div>
+      
       <Collection />
       <About />
     </>
