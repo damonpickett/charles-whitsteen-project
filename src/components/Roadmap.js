@@ -17,10 +17,10 @@ function Roadmap() {
           <div className='roadmap-item'>
             <h4>Mint</h4>
             <ul>
-              <li>25% of sales go to charity</li>
-              <li>25% of sales go to development team</li>
+              <li>20% of sales go to charity</li>
+              <li>30% of sales go to development team</li>
               <li>50% of sales go to Charles Whitsteen</li>
-              <li>Discord art discussion/interpretation</li>
+              <li>Discord art discussion/interpretation event</li>
             </ul>
           </div>
           <div className='roadmap-item'>
