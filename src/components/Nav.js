@@ -5,7 +5,8 @@ function Nav() {
   return (
       <div className='nav'>
         <ul>
-          <li><Link to='/'>Collection</Link></li>
+          <li><Link to='/'>Home</Link></li>
+          <li><Link to='/#collection'>Collection</Link></li>
           <li><Link to='/'>About</Link></li>
           <li><Link to='/roadmap'>Roadmap</Link></li>
           <li><Link to='/social'>Social</Link></li>

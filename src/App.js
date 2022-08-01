@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
-import Intro from './components/Intro';
+import Home from './components/Home';
 import Roadmap from './components/Roadmap';
 import Social from './components/Social';
 
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Nav />
       <Routes>
-        <Route path='/' element={<Intro />} />
+        <Route path='/' element={<Home />} />
         <Route path='/roadmap' element={<Roadmap />} />
         <Route path='/social' element={<Social />} />
       </Routes>
