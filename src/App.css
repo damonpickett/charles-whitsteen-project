@@ -11,13 +11,17 @@ body {
   background-position: center;
   background-size: cover;
   color: white;
-  
 }
 
 a {
   text-decoration: none;
   text-shadow: none;
-  color: rgb(44, 246, 44)
+  color: rgb(44, 246, 44);
+  transition: 0.4s;
+}
+
+a:hover {
+  color: rgb(61, 186, 61)
 }
 
 .App {
@@ -261,5 +265,13 @@ h1, h2, h3 {
 .icons {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: rgb(41, 38, 38);
+  padding: 20px 20px 50px;
+  height: 100%;
 }
 
