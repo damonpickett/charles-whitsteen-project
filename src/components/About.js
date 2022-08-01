@@ -10,7 +10,7 @@ function About() {
           <div className='content'>
             <img src={metaMan} alt='Meta Man'></img>
             <div className='content-text'>
-              <p>We live in a world of masks. Glossy smooth surfaces hide the hideous truth within. To many, this is a blessing, a tender mercy. But there are some who wish to go deeper. There are some determined to walk the path of truth no matter the cost. Charles Whitsteen, with sight and skill, is leading us down that path. Join Whitsteen as he probes the depths of reality, turns them inside out and reminds us not all is what it seems. And we'll make some <a href='https://flyingfurrescue.wixsite.com/rescue' rel='noreferrer' target='_blank'>furry friends</a> along the way.</p>
+              <p>We live in a world of masks. Glossy smooth surfaces hide the hideous truth within. To many, this is a blessing, a tender mercy. But there are some who wish to go deeper. There are some determined to walk the path of truth no matter the cost. Charles Whitsteen, with sight and skill, is leading us down that path. Join Whitsteen as he probes the depths of reality, turns it inside out and reminds us not all is what it seems. And we'll make some <a href='https://flyingfurrescue.wixsite.com/rescue' rel='noreferrer' target='_blank'>furry friends</a> along the way.</p>
               <button>Instagram</button>
             </div>
           </div>
@@ -22,7 +22,7 @@ function About() {
               <p>Remove your mask and be the delightful ghoul that you are. The Charles Whitsteen Project community is a place where all are welcome, as long as you're a weirdo. Vulgar heresies may be spoken. Smiles are encouraged.</p>
               <button>Join Discord</button>
             </div>
-            <img src={insaneParade} alt='The Green Room'></img>
+            <img src={insaneParade} alt='Insane Parade'></img>
             
           </div>
         </div>
