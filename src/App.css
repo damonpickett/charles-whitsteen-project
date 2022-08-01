@@ -218,7 +218,7 @@ h1, h2, h3 {
 }
 
 .roadmap-canvas {
-  background-color: rgb(41, 38, 38);
+  background-color: rgba(41, 38, 38, 0.9);
   margin: 50px auto;
   max-width: 500px;
   padding: 20px;
@@ -230,11 +230,6 @@ h1, h2, h3 {
 
 .roadmap-canvas h2, h3 {
   color: white;
-}
-
-.roadmap-item ul {
-  list-style: none;
-  padding: 0;
 }
 
 /* SOCIAL */

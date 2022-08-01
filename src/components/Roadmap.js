@@ -6,27 +6,27 @@ function Roadmap() {
         <div className='roadmap-canvas'>
           <h2>The Roadmap</h2>
           <div className='roadmap-item'>
-            <h3>Roadmap Stage</h3>
+            <h3>Phase 1</h3>
+            <h4>Pre-mint Launch</h4>
             <ul>
-              <li>Stage Item</li>
-              <li>Stage Item</li>
-              <li>Stage Item</li>
+              <li>Community building</li>
+              <li>Charity promotion</li>
+              <li>Whitelist giveaway</li>
             </ul>
           </div>
           <div className='roadmap-item'>
-            <h3>Roadmap Stage</h3>
+            <h4>Mint</h4>
             <ul>
-              <li>Stage Item</li>
-              <li>Stage Item</li>
-              <li>Stage Item</li>
+              <li>25% of sales go to charity</li>
+              <li>25% of sales go to development team</li>
+              <li>50% of sales go to Charles Whitsteen</li>
+              <li>Discord art discussion/interpretation</li>
             </ul>
           </div>
           <div className='roadmap-item'>
-            <h3>Roadmap Stage</h3>
+            <h3>Phase 2</h3>
             <ul>
-              <li>Stage Item</li>
-              <li>Stage Item</li>
-              <li>Stage Item</li>
+              <li>If 100% of the previous collection sells out, a new collection is unlocked, and the steps outlined above are refined and repeated</li>
             </ul>
           </div>
         </div>
