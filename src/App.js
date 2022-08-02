@@ -15,7 +15,7 @@ function App() {
         <Route path='/roadmap' element={<Roadmap />} />
         <Route path='/social' element={<Social />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
