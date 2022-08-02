@@ -4,24 +4,39 @@
 /* font-family: 'Bangers', cursive; */
 /* font-family: 'Orbitron', sans-serif; */
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  background-color: rgb(41, 38, 38);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  text-shadow: none;
+  color: rgb(44, 246, 44);
+  transition: 0.4s;
+}
+
+a:hover {
+  color: rgb(61, 186, 61)
+}
+
+.App {
+  font-family: 'Courier New', Courier, monospace;
   background-image: url('./images/landscape.png');
   background-color: rgb(25, 22, 22);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: white;
-  
-}
-
-a {
-  text-decoration: none;
-  text-shadow: none;
-  color: rgb(44, 246, 44)
-}
-
-.App {
-  font-family: 'Courier New', Courier, monospace;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 h1, h2, h3 {
@@ -71,7 +86,6 @@ h1, h2, h3 {
   text-align: center;
   margin-bottom: 100px;
   font-size: 20px;
-  padding: 0 200px 0;
 }
 
 .disclaimer {
@@ -87,6 +101,7 @@ h1, h2, h3 {
   font-weight: bold;
   margin-bottom: 45px;
   line-height: 35px;
+  padding: 0 30px;
 }
 
 .link-button {
@@ -219,7 +234,7 @@ h1, h2, h3 {
 
 .roadmap-canvas {
   background-color: rgba(41, 38, 38, 0.9);
-  margin: 50px auto;
+  margin: 100px auto 150px;
   max-width: 500px;
   padding: 20px;
 }
@@ -237,12 +252,12 @@ h1, h2, h3 {
 .social {
   display: flex;
   justify-content: space-evenly;
+  margin: 10vw 5vw;
 }
 
 .social-block {
   background-color: rgba(41, 38, 38, 0.9);
   padding: 20px;
-  margin-top: 100px;
   text-align: center;
   width: 500px;
 }
@@ -261,5 +276,65 @@ h1, h2, h3 {
 .icons {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: rgb(41, 38, 38);
+  padding: 20px 20px 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 700px) {
+
+  /* HOME */
+
+
+
+  /* COLLECTION */
+
+  .pieces {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ABOUT */
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .story, .community {
+    margin-bottom: 70px;
+    padding: 0 30px 0;
+    font-size: 20px;
+  }
+
+  .content img {
+    order: 1;
+  }
+
+  .content-text {
+    order: 2;
+  }
+
+  /* SOCIAL */
+
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-block {
+    width: 300px;
+    margin: 0 auto 25px;
+  }
+
 }
 

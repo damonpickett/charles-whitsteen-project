@@ -1,11 +1,14 @@
 import '../App.css';
 import { HashLink as Link } from 'react-router-hash-link';
+import * as FaIcons from 'react-icons/fa';
 
-function Nav() {
+function Nav(props) {
+
   return (
     <>
       <div id='home'></div>
       <div className='nav'>
+        {props.menu ? (
         <ul>
           <li><Link smooth to='/#home'>Home</Link></li>
           <li><Link smooth to='/#collection'>Collection</Link></li>
@@ -13,6 +16,9 @@ function Nav() {
           <li><Link to='/roadmap'>Roadmap</Link></li>
           <li><Link to='/social'>Social</Link></li>
         </ul>
+        ) : (
+        <FaIcons.FaBars value={{ style: { marginLeft: '20px' } }}/>
+        )}
         <ul>
           <li><button>Instructions</button></li>
           <li><button>Connect Wallet</button></li>
