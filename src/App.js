@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <Nav menu={menu}/>
+      <Nav menu={menu} setMenu={setMenu}/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/roadmap' element={<Roadmap />} />
