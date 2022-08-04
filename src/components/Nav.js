@@ -8,11 +8,11 @@ function Nav(props) {
   // function which sets state
   // useState + if statement + event listener?
   useEffect(() => {
-    if(window.innerWidth >= 600) {
+      if(window.innerWidth >= 600) {
       props.setMenu(true)
-    }
-  }, [props])
+    } 
   
+  }, [props])
 
   return (
     <>
