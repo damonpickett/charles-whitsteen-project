@@ -28,15 +28,14 @@ a:hover {
 
 .App {
   font-family: 'Courier New', Courier, monospace;
+  color: white;
   background-image: url('./images/landscape.png');
   background-color: rgb(25, 22, 22);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: white;
+  overflow: clip;
   height: 100%;
-  width: 100%;
-  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1, h2, h3 {
@@ -51,12 +50,13 @@ h1, h2, h3 {
 .nav {
   background-color: rgba(39, 36, 36, 0.9);
   color: white;
-  padding: 8px 0;
+  padding-left: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
+  font-size: 1.5em;
 }
 
 .nav ul {
@@ -84,14 +84,14 @@ h1, h2, h3 {
 
 .intro {
   text-align: center;
-  margin-bottom: 100px;
+  margin: 0 auto 100px;
   font-size: 20px;
+  max-width: 900px;
 }
 
 .disclaimer {
   margin-top: 35px;
   font-style: italic;
-  margin-bottom: 50px;
   font-size: 15px;
   text-shadow: none;
 }
@@ -290,7 +290,13 @@ h1, h2, h3 {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
+
+  /* NAV */
+
+  .nav button {
+    margin-right: 0;
+  }
 
   /* HOME */
 
