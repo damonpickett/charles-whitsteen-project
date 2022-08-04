@@ -1,35 +1,33 @@
 import '../App.css';
 import { HashLink as Link } from 'react-router-hash-link';
-import { useEffect } from 'react';
 import * as FaIcons from 'react-icons/fa';
+import BurgerMenu from './BurgerMenu';
 
 function Nav(props) {
-
-  // function which sets state
-  // useState + if statement + event listener?
-  useEffect(() => {
-      if(window.innerWidth >= 600) {
-      props.setMenu(true)
-    } 
   
-  }, [props])
 
   return (
     <>
       <div id='home'></div>
         <div className='nav'>
-          {props.menu ? (
-          <ul>
+          
+          <ul className='full-screen-menu'>
             <li><Link smooth to='/#home'>Home</Link></li>
             <li><Link smooth to='/#collection'>Collection</Link></li>
             <li><Link smooth to='/#about'>About</Link></li>
             <li><Link to='/roadmap'>Roadmap</Link></li>
             <li><Link to='/social'>Social</Link></li>
           </ul>
-          ) : (
-          <FaIcons.FaBars />
-          )}
-          <ul>
+          
+          {/* for mobile */}
+          <div className='burger'>
+            <FaIcons.FaBars />
+          </div>
+
+          {/* burger menu component */}
+          <BurgerMenu />
+          
+          <ul className='nav-buttons'>
             <li><button>Instructions</button></li>
             <li><button>Connect Wallet</button></li>
           </ul>
