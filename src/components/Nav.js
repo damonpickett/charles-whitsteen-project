@@ -2,8 +2,10 @@ import '../App.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import * as FaIcons from 'react-icons/fa';
 import BurgerMenu from './BurgerMenu';
+import { useState } from 'react';
 
 function Nav(props) {
+  
   
 
   return (
@@ -21,11 +23,8 @@ function Nav(props) {
           
           {/* for mobile */}
           <div className='burger'>
-            <FaIcons.FaBars />
-          </div>
-
-          {/* burger menu component */}
-          <BurgerMenu />
+            <FaIcons.FaBars onClick={() => props.setMenu(true)}/>
+          </div>          
           
           <ul className='nav-buttons'>
             <li><button>Instructions</button></li>

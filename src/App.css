@@ -94,10 +94,6 @@ h1, h2, h3 {
   border: none;
 }
 
-.burger-menu {
-  display: none;
-}
-
 /* HOME */
 
 .intro {
@@ -326,7 +322,6 @@ h1, h2, h3 {
 
   .burger-menu {
     background-color: rgb(41, 38, 38);
-    display: none;
     transition: 0.5s;
     position: absolute;
     top: 0;

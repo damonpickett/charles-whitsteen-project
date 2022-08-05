@@ -1,12 +1,17 @@
+import React from 'react';
 import '../App.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { AiOutlineClose } from "react-icons/ai";
 
-function BurgerMenu() {
+const BurgerMenu = (props) => {
+    if (!props.menu) {
+        return null
+    }
+    
   return (
-      <div className='burger-menu show'>
+      <div className='burger-menu'>
         <div className='close-button'>
-            <AiOutlineClose />
+            <AiOutlineClose onClick={() => props.setMenu(false)}/>
         </div>
         <ul className='burger-list'>
             <li><Link smooth to='/#home'>Home</Link></li>
