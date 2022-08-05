@@ -1,8 +1,6 @@
 import '../App.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import * as FaIcons from 'react-icons/fa';
-import BurgerMenu from './BurgerMenu';
-import { useState } from 'react';
 
 function Nav(props) {
   

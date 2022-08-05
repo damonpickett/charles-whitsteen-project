@@ -48,7 +48,7 @@ h1, h2, h3 {
 /* NAVIGATION */
 
 .nav {
-  background-color: rgba(39, 36, 36, 0.9);
+  background-color: rgba(19, 18, 18, 0.9);
   color: white;
   padding-left: 15px;
   display: flex;
@@ -225,8 +225,14 @@ h1, h2, h3 {
   justify-content: space-evenly;
 }
 
+.content img {
+  max-width: 375px;
+  max-height: 375px;
+}
+
 .content p {
   max-width: 500px;
+  padding: 0 10px 0;
 }
 
 .content img {
@@ -312,8 +318,9 @@ h1, h2, h3 {
 
   /* NAV */
 
-  .nav button {
-    margin-right: 0;
+  .nav-buttons button {
+    margin-right: 10px;
+    font-size: 0.6em;
   }
 
   .full-screen-menu {
@@ -387,10 +394,12 @@ h1, h2, h3 {
 
   .content img {
     order: 1;
+    margin: 0 auto;
   }
 
   .content-text {
     order: 2;
+    margin: 0 auto;
   }
 
   /* SOCIAL */
