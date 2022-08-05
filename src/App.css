@@ -59,17 +59,35 @@ h1, h2, h3 {
   font-size: 1.5em;
 }
 
-.nav ul {
+.full-screen-menu {
   list-style: none;
+  display: block;
 }
 
-.nav ul li {
+.burger {
+  display: none;
+}
+
+#burger-menu {
+  display: none;
+}
+
+.full-screen-menu li {
   list-style: none;
   display: inline;
   margin-right: 20px;
   font-family: 'Metal Mania', cursive;
   font-size: 20px;
   color: greenyellow;
+}
+
+.nav-buttons {
+  list-style: none;
+}
+
+.nav-buttons li {
+  display: inline;
+  margin-right: 10px;
 }
 
 .nav button {
@@ -296,6 +314,51 @@ h1, h2, h3 {
 
   .nav button {
     margin-right: 0;
+  }
+
+  .full-screen-menu {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  #burger-menu {
+    background-color: rgb(41, 38, 38);
+    transition: transform 0.4s;
+    transform: translateX(-100vw, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40vw;
+    height: 100vh;
+    display: block;
+  }
+
+  #burger-menu.hide {
+    transform: translate3d(-40vw, 0, 0);
+  }
+
+  #burger-menu.show {
+    transform: translate3d(-0vw, 0, 0);
+  }
+
+  .burger-list {
+    list-style: none;
+    font-family: 'Metal Mania', cursive;
+    color: greenyellow;
+    margin-right: 40px;
+  }
+
+  .burger-list li {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .close-button {
+    text-align: right;
+    padding-right: 10px;
   }
 
   /* HOME */
