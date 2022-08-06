@@ -113,6 +113,40 @@ h1, h2, h3 {
   border: none;
 }
 
+/* MODAL */
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  transition-duration: 4s;
+}
+
+.modal-canvas {
+  position: relative;
+  width: 500px;
+  background-color: rgb(41, 38, 38);
+  color: white;
+  padding: 28px 32px 24px;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 0 2px 2px 1px #0F0F0F;
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.exit-button {
+  text-align: right;
+}
+
 /* HOME */
 
 .intro {
@@ -217,7 +251,7 @@ h1, h2, h3 {
 .about {
   margin: 105px auto 0;
   text-align: center;
-  max-width: 1500px;
+  max-width: 1200px;
 }
 
 .about p {
@@ -292,7 +326,7 @@ h1, h2, h3 {
 .social {
   display: flex;
   justify-content: space-evenly;
-  margin: 200px auto 200px;
+  margin: 100px auto 200px;
   max-width: 1500px;
 }
 
