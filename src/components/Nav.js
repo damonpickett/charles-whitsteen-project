@@ -23,7 +23,7 @@ function Nav(props) {
             </div>          
             
             <ul className='nav-buttons'>
-              <li><button>Instructions</button></li>
+              <li><button onClick={() => {props.setModal(true)}}>Instructions</button></li>
               <li><button>Connect Wallet</button></li>
             </ul>
           </div>
