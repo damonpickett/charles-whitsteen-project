@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts (last updated v4.7.0) (finance/PaymentSplitter.sol)
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.7;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol";
+import "@openzeppelin/contracts/finance/PaymentSplitter.sol";
 
 contract PAYMENTS is PaymentSplitter {
 
