@@ -520,8 +520,8 @@
       ]
     },
     "/Users/damonpickett/Documents/development/charles-whitsteen-project/contracts/payments.sol": {
-      "lastModificationDate": 1659829370207,
-      "contentHash": "7c7c146fca5bdcb2196cf3b35df94540",
+      "lastModificationDate": 1659974497458,
+      "contentHash": "0a3c66d211c38c58f28f2d7c7c49838b",
       "sourceName": "contracts/payments.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -553,7 +553,7 @@
         "^0.8.7"
       ],
       "artifacts": [
-        "PAYMENTS"
+        "payments"
       ]
     }
   }
