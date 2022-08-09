@@ -2,7 +2,7 @@ const hre = require("hardhat");
 
 async function main() {
 
-  const Payments = await hre.ethers.getContractFactory("PAYMENTS");
+  const Payments = await hre.ethers.getContractFactory("payments");
   const payments = await Payments.deploy(
     ['0x7c4029Baab6092FaA64465cbCdAC0D979079EB01',
     '0x9A09DcB28e2fB829DE9D4201b571Ad397fC490E6',
