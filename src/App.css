@@ -105,12 +105,20 @@ h1, h2, h3 {
   margin-right: 10px;
 }
 
+.nav-buttons p {
+  display: inline;
+  font-family: 'Bangers', cursive;
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+
 .nav button {
   margin-right: 20px;
   height: 30px;
   font-family: 'Bangers', cursive;
   background-color: rgb(245, 164, 72);
   border: none;
+  font-size: 0.6em;
 }
 
 /* MODAL */
@@ -244,6 +252,11 @@ h1, h2, h3 {
   font-size: 20px;
   padding: 15px;
   margin-top: 15px;
+}
+
+.mint-button p {
+  font-family: 'Bangers', cursive;
+  font-size: 1.4em;
 }
 
 /* ABOUT */

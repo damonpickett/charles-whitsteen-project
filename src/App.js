@@ -14,14 +14,15 @@ function App() {
 
   const [menu, setMenu] = useState(false);
   const [modal, setModal] = useState(false);
+  const [accounts, setAccounts] = useState([]);
 
   return (
     <div className="App">
-      <Nav setMenu={setMenu} setModal={setModal}/>
+      <Nav setMenu={setMenu} setModal={setModal} accounts={accounts} setAccounts={setAccounts}/>
       <BurgerMenu menu={menu} setMenu={setMenu}/>
       <InstructionsModal modal={modal} setModal={setModal}/>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Home accounts={accounts} setAccounts={setAccounts}/>} />
         <Route path='/roadmap' element={<Roadmap />} />
         <Route path='/social' element={<Social />} />
       </Routes>

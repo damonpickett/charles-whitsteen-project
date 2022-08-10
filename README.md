@@ -14,6 +14,10 @@ module.exports = [
 and added during the verification process via CLI, after the contract has been deployed, like this:
 `npx hardhat verify --contract contracts/payments.sol:payments --constructor-args paymentsArguments.js 0xDC97fa5b8Fd674D9ff5D5CB8574286d0DAbeCcBf`
 
+Also, deploy script has to have arguments and those arguments must match the arguments script.
+
+whitelistMint does have user paying gas fees.
+
 ## Hardhat Contract Deployment and Verification via CLI
 
 To deploy a contract via CLI, assuming your `hardhat.config` and `deploy.js` files are in order, type this:

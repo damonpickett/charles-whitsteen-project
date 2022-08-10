@@ -2,7 +2,7 @@ import '../App.css';
 import Collection from './Collection';
 import About from './About';
 
-function Intro() {
+function Intro(props) {
   return (
     <>
       <div className='intro'>
@@ -15,7 +15,7 @@ function Intro() {
         <div id='collection'></div>
       </div>
       
-      <Collection />
+      <Collection accounts={props.accounts} setAccounts={props.setAccounts}/>
       <About />
     </>
   );
