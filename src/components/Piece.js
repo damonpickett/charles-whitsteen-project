@@ -2,6 +2,8 @@ import '../App.css';
 
 function Piece(props) {
 
+  const isConnected = Boolean(props.accounts[0]);
+
   const handleDecrement = () => {
     if (props.mintAmount <= 1) return;
     props.setMintAmount(props.mintAmount - 1);
@@ -33,9 +35,14 @@ function Piece(props) {
           >+</button>
         </div>
         <div className='mint-button'>
-            <button 
+        {isConnected ? (
+          <button 
               onClick={props.onClick}
             >Mint</button>
+        ) : (
+          <p>Connect Wallet</p>
+        )}
+            
           </div>
       </div>
   );

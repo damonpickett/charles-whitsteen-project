@@ -3,6 +3,17 @@ import { HashLink as Link } from 'react-router-hash-link';
 import * as FaIcons from 'react-icons/fa';
 
 function Nav(props) {
+
+  const isConnected = Boolean(props.accounts[0]);
+
+  async function connectAccount() {
+    if (window.ethereum) {
+      const accounts = await window.ethereum.request({
+        method: 'eth_requestAccounts',
+      });
+      props.setAccounts(accounts)
+    }
+  }
   
   return (
     <>
@@ -24,7 +35,11 @@ function Nav(props) {
             
             <ul className='nav-buttons'>
               <li><button onClick={() => {props.setModal(true)}}>Instructions</button></li>
-              <li><button>Connect Wallet</button></li>
+              <li>{isConnected ? (<p>Wallet Connected</p>
+              ) : (
+                <button onClick={connectAccount}>Connect Wallet</button>
+              )}
+                </li>
             </ul>
           </div>
         </div>
