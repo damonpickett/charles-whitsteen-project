@@ -18,8 +18,8 @@ function Collection(props) {
   
 
   async function handleMint1() {
-    console.log(props.accounts)
     if (window.ethereum) {
+      const address = props.accounts.toString();
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
       const contract = new ethers.Contract(
@@ -28,7 +28,7 @@ function Collection(props) {
         signer
       );
       try {
-        const response = await contract.mint(props.accounts, BigNumber.from('1'), BigNumber.from(mintAmount1), {
+        const response = await contract.mint(address, BigNumber.from('1'), BigNumber.from(mintAmount1), {
           value: ethers.utils.parseEther((0.01 * mintAmount1).toString())
         });
         console.log('response: ', response);

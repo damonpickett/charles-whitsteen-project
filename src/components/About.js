@@ -23,7 +23,6 @@ function About() {
               <button className='link-button'><a href='https://discord.com/' target='_blank' rel='noreferrer'>Join Discord</a></button>
             </div>
             <img src={insaneParade} alt='Insane Parade'></img>
-            
           </div>
         </div>
       </div>
