@@ -7,12 +7,13 @@ function Piece(props) {
   const handleDecrement = () => {
     if (props.mintAmount <= 1) return;
     props.setMintAmount(props.mintAmount - 1);
+    props.setQuantity(props.mintAmount)
   };
 
   const handleIncrement = () => {
     if (props.mintAmount >= 3) return;
     props.setMintAmount(props.mintAmount + 1);
-    console.log(props.mintAmount);
+    props.setQuantity(props.mintAmount)
   };
 
   return (

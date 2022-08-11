@@ -70,7 +70,7 @@ h1, h2, h3 {
 /* NAVIGATION */
 
 .nav {
-  background-color: rgba(19, 18, 18, 0.9);
+  background-color: rgba(19, 18, 18, 0.87);
   color: white;
   padding-left: 15px;
   position: sticky;
