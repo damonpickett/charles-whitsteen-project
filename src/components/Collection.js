@@ -2,7 +2,7 @@ import { useState } from 'react';
 import '../App.css';
 import Piece from './Piece';
 import nerveSlug from '../images/nerve-slug300x320.jpg';
-import hoboGoblin from '../images/hobo-goblin300x320.jpg'
+import hoboGoblin from '../images/hobo-goblin300x320.jpg';
 import daydreamDragons from '../images/daydream-dragons300x320.jpg';
 import { ethers, BigNumber } from 'ethers';
 import charlesWhitsteenProjectNFT from '../charlesWhitsteenProject.json';
@@ -15,8 +15,11 @@ function Collection(props) {
   const [mintAmount2, setMintAmount2] = useState(1);
   const [mintAmount3, setMintAmount3] = useState(1);
 
-  async function handleMint() {
+  
+
+  async function handleMint1() {
     if (window.ethereum) {
+      const address = props.accounts.toString();
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
       const contract = new ethers.Contract(
@@ -25,7 +28,12 @@ function Collection(props) {
         signer
       );
       try {
-        const response = await contract.mint(BigNumber.from())
+        const response = await contract.mint(address, BigNumber.from('1'), BigNumber.from(mintAmount1), {
+          value: ethers.utils.parseEther((0.01 * mintAmount1).toString())
+        });
+        console.log('response: ', response);
+      } catch (err) {
+        console.log('error: ', err)
       }
     }
   }
@@ -43,6 +51,7 @@ function Collection(props) {
               setMintAmount={setMintAmount1}
               accounts={props.accounts}
               setAccounts={props.setAccounts}
+              onClick={handleMint1}
             />
             <Piece
               title={'Hobo Goblin'}

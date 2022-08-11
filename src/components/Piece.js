@@ -12,6 +12,7 @@ function Piece(props) {
   const handleIncrement = () => {
     if (props.mintAmount >= 3) return;
     props.setMintAmount(props.mintAmount + 1);
+    console.log(props.mintAmount);
   };
 
   return (
@@ -40,7 +41,7 @@ function Piece(props) {
               onClick={props.onClick}
             >Mint</button>
         ) : (
-          <p>Connect Wallet</p>
+          <p>Connect Wallet to Mint</p>
         )}
             
           </div>
