@@ -36,4 +36,6 @@ If you're contract requires arguments, you'll need to create an `arguments.js` f
 
 You might need to combine the above instructions in various ways in different scenarios
 
-whitsteen contract: 0xb8c9B79A541B1419B72d18306d95342f19e64cD5
+rinkeby whitsteen contract: 0x129f706Dd367D6E1aF251c6a3f89913D62e86B92
+
+rinkeby Payments.sol: 0x63115c14f666832FcAf261e159396CCf70963EDD

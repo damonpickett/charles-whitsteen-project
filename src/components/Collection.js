@@ -7,7 +7,7 @@ import daydreamDragons from '../images/daydream-dragons300x320.jpg';
 import { ethers, BigNumber } from 'ethers';
 import charlesWhitsteenProjectNFT from '../charlesWhitsteenProject.json';
 
-const charlesWhitsteenProjectAddress = '0xb8c9B79A541B1419B72d18306d95342f19e64cD5'
+const charlesWhitsteenProjectAddress = '0x129f706Dd367D6E1aF251c6a3f89913D62e86B92'
 
 function Collection(props) {
 
