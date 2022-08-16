@@ -7,11 +7,13 @@ function Nav(props) {
   const isConnected = Boolean(props.accounts[0]);
 
   async function connectAccount() {
+    
     if (window.ethereum) {
       const accounts = await window.ethereum.request({
         method: 'eth_requestAccounts',
       });
       props.setAccounts(accounts)
+      console.log(accounts)
     }
   }
   

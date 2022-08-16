@@ -38,6 +38,7 @@ function Collection(props) {
   }
 
   async function handleMint2() {
+    console.log('click')
     if (window.ethereum) {
       const address = props.accounts.toString();
       const provider = new ethers.providers.Web3Provider(window.ethereum);
@@ -49,7 +50,7 @@ function Collection(props) {
       );
       try {
         const response = await contract.mint(address, BigNumber.from('2'), BigNumber.from(mintAmount2), {
-          value: ethers.utils.parseEther((0.01 * mintAmount1).toString())
+          value: ethers.utils.parseEther((0.01 * mintAmount2).toString())
         });
         console.log('response: ', response);
       } catch (err) {
@@ -70,7 +71,7 @@ function Collection(props) {
       );
       try {
         const response = await contract.mint(address, BigNumber.from('3'), BigNumber.from(mintAmount3), {
-          value: ethers.utils.parseEther((0.01 * mintAmount1).toString())
+          value: ethers.utils.parseEther((0.01 * mintAmount3).toString())
         });
         console.log('response: ', response);
       } catch (err) {
