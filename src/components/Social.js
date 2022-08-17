@@ -3,6 +3,7 @@ import instagram from '../images/instagram-icon.png';
 import homepage from '../images/homepage.png';
 import linkedin from '../images/linkedin.png';
 import twitter from '../images/twitter.png'
+import github from '../images/GitHub-Mark-Light-48px.png';
 
 function Social() {
   return (
@@ -20,6 +21,7 @@ function Social() {
           <a href='https://damonpickett.github.io/portfolio/' target='_blank' rel='noreferrer'><img src={homepage} alt='Homepage'></img></a>
           <a href='https://www.linkedin.com/in/damon-pickett/' target='_blank' rel='noreferrer'><img src={linkedin} alt='Linkedin'></img></a>
           <a href='https://twitter.com/Damon_Pickett' target='_blank' rel='noreferrer'><img src={twitter} alt='Twitter'></img></a>
+          <a href='https://twitter.com/Damon_Pickett' target='_blank' rel='noreferrer'><img src={github} alt='Github'></img></a>
           </div>
         </div>
       </div>
