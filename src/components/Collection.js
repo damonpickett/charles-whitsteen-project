@@ -7,7 +7,7 @@ import daydreamDragons from '../images/daydream-dragons300x320.jpg';
 import { ethers, BigNumber } from 'ethers';
 import charlesWhitsteenProjectNFT from '../charlesWhitsteenProject.json';
 
-const charlesWhitsteenProjectAddress = '0xb8c9B79A541B1419B72d18306d95342f19e64cD5'
+const charlesWhitsteenProjectAddress = '0x129f706Dd367D6E1aF251c6a3f89913D62e86B92'
 
 function Collection(props) {
 
@@ -31,8 +31,10 @@ function Collection(props) {
           value: ethers.utils.parseEther((0.01 * mintAmount1).toString())
         });
         console.log('response: ', response);
+        alert(`Success! You can verify your purchase at https://rinkeby.etherscan.io/. Transaction hash: ${response.hash}`)
       } catch (err) {
         console.log('error: ', err)
+        alert(err)
       }
     }
   }
@@ -53,8 +55,10 @@ function Collection(props) {
           value: ethers.utils.parseEther((0.01 * mintAmount2).toString())
         });
         console.log('response: ', response);
+        alert(`Success! You can verify your purchase at https://rinkeby.etherscan.io/. Transaction hash: ${response.hash}`);
       } catch (err) {
-        console.log('error: ', err)
+        console.log('error: ', err);
+        alert(err);
       }
     }
   }
@@ -74,8 +78,10 @@ function Collection(props) {
           value: ethers.utils.parseEther((0.01 * mintAmount3).toString())
         });
         console.log('response: ', response);
+        alert(`Success! You can verify your purchase at https://rinkeby.etherscan.io/. Transaction hash: ${response.hash}`)
       } catch (err) {
-        console.log('error: ', err)
+        console.log('error: ', err);
+        alert(err);
       }
     }
   }

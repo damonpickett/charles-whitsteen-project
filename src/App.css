@@ -157,6 +157,7 @@ h1, h2, h3 {
   padding: 28px 32px 24px;
   font-family: 'Courier New', Courier, monospace;
   box-shadow: 0 2px 2px 1px #0F0F0F;
+  border: 1px solid white;
 }
 
 .modal-header {
@@ -454,6 +455,7 @@ h1, h2, h3 {
   .close-button {
     text-align: right;
     padding-right: 10px;
+    padding-top: 20px;
   }
 
   /* HOME */
