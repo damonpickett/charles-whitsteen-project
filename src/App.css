@@ -510,3 +510,69 @@ h1, h2, h3 {
 
 }
 
+@media screen and (max-width: 280px) {
+
+  /* NAV */
+
+  .nav-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-buttons li {
+    display: inline;
+    margin-right: 0;
+  }
+
+  .nav-buttons p {
+    font-size: 0.6em;
+  }
+
+  /* COLLECTION */
+
+  .collection-canvas {
+    padding: 25px 0;
+  }
+
+  .image  img{
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+  }
+
+  /* ABOUT */
+
+  .story, .community {
+    padding: 0;
+  }
+
+  .content img {
+    width: 260px;
+    height: 260px;
+  }
+
+  /* ROADMAP */
+
+  .roadmap-canvas {
+    padding: 10px 0;
+    margin: 50px 0;
+  }
+
+  /* SOCIAL */
+
+  .social {
+    margin: 60px 0;
+  }
+
+  .social-block {
+    width: 280px;
+    padding: 10px 0 15px;
+    max-height: 170px;
+  }
+
+  .social-block h2 {
+    font-size: 1.1em;
+  }
+
+}
+
