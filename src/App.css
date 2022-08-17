@@ -455,6 +455,7 @@ h1, h2, h3 {
   .close-button {
     text-align: right;
     padding-right: 10px;
+    padding-top: 20px;
   }
 
   /* HOME */

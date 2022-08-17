@@ -31,8 +31,10 @@ function Collection(props) {
           value: ethers.utils.parseEther((0.01 * mintAmount1).toString())
         });
         console.log('response: ', response);
+        alert(`Success! You can verify your purchase at https://rinkeby.etherscan.io/. Transaction hash: ${response.hash}`)
       } catch (err) {
         console.log('error: ', err)
+        alert(err)
       }
     }
   }
@@ -53,8 +55,10 @@ function Collection(props) {
           value: ethers.utils.parseEther((0.01 * mintAmount2).toString())
         });
         console.log('response: ', response);
+        alert(`Success! You can verify your purchase at https://rinkeby.etherscan.io/. Transaction hash: ${response.hash}`);
       } catch (err) {
-        console.log('error: ', err)
+        console.log('error: ', err);
+        alert(err);
       }
     }
   }
@@ -74,8 +78,10 @@ function Collection(props) {
           value: ethers.utils.parseEther((0.01 * mintAmount3).toString())
         });
         console.log('response: ', response);
+        alert(`Success! You can verify your purchase at https://rinkeby.etherscan.io/. Transaction hash: ${response.hash}`)
       } catch (err) {
-        console.log('error: ', err)
+        console.log('error: ', err);
+        alert(err);
       }
     }
   }
