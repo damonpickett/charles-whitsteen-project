@@ -366,6 +366,7 @@ h1, h2, h3 {
   justify-content: space-evenly;
   margin: 100px auto 200px;
   max-width: 1500px;
+  height: 50vh;
 }
 
 .social-block {
@@ -373,6 +374,7 @@ h1, h2, h3 {
   padding: 20px;
   text-align: center;
   width: 500px;
+  max-height: 160px;
 }
 
 .social-block h2 {
