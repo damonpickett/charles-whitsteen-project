@@ -1,4 +1,16 @@
-# Things I've learned so far
+# The Whitsteen Project
+A mock NFT art project featuring the work of Whitsteen. 
+
+## Tech Stack
+- React.js (front-end)
+- Solidity (smart contracts)
+- Hardhat (contract deployment)
+- Ethers.js (allows React to communicate with blockchain)
+
+## Overview
+I built this site to demonstrate my ability to conceptualize and execute an NFT art project. Users are able to connect their Ethereum wallets and purchase NFTs. These transactions are verifiable on the [Rinkeby Testnet](https://rinkeby.etherscan.io/) and the corresponding smart contract can be viewed [here](https://rinkeby.etherscan.io/address/0x129f706Dd367D6E1aF251c6a3f89913D62e86B92). The smart contract also allows for whitelisted addresses to mint NFTs within a specified timeframe. There are three NFTs for sale on this
+
+## Lessons Learned
 
 - Use fixed position for background images and nav menu on mobile screens
 - If a contract has arguments, the arguments need to be deployed in a separate `.js` file. E.G. `paymentsArguments.js`:
@@ -18,7 +30,7 @@ Also, deploy script has to have arguments and those arguments must match the arg
 
 whitelistMint does have user paying gas fees.
 
-## Hardhat Contract Deployment and Verification via CLI
+### Hardhat Contract Deployment and Verification via CLI
 
 To deploy a contract via CLI, assuming your `hardhat.config` and `deploy.js` files are in order, type this:
 `npx hardhat clean`

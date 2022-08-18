@@ -9,7 +9,7 @@ function Social() {
   return (
       <div className='social'>
         <div className='social-block'>
-          <h2>Charles Whitsteen <span className='subtitle'>(Artist)</span></h2>
+          <h2>Whitsteen <span className='subtitle'>(Artist)</span></h2>
           <div className='icons'>
             <a href='https://anxietydisordercomics.com/' target='_blank' rel='noreferrer'><img src={homepage} alt='Homepage'></img></a>
             <a href='https://www.instagram.com/whitsteen_/' target='_blank' rel='noreferrer'><img src={instagram} alt='Instagram'></img></a>
