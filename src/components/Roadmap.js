@@ -19,7 +19,7 @@ function Roadmap() {
             <ul>
               <li>20% of sales go to charity</li>
               <li>30% of sales go to development team</li>
-              <li>50% of sales go to Charles Whitsteen</li>
+              <li>50% of sales go to Whitsteen</li>
               <li>Discord art discussion/interpretation event</li>
             </ul>
           </div>
