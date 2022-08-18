@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/charles-whitsteen-project/static/css/main.1faa0006.css",
-    "main.js": "/charles-whitsteen-project/static/js/main.6544c3bf.js",
-    "static/js/787.bea3a99e.chunk.js": "/charles-whitsteen-project/static/js/787.bea3a99e.chunk.js",
-    "static/media/landscape.png": "/charles-whitsteen-project/static/media/landscape.5657aea3c8a1cc0b146f.png",
-    "static/media/insane-parade375x375.jpg": "/charles-whitsteen-project/static/media/insane-parade375x375.6e5da413ceb41980c36c.jpg",
-    "static/media/meta-man375x375.jpg": "/charles-whitsteen-project/static/media/meta-man375x375.4dd16b0cf0bc2564cdf4.jpg",
-    "static/media/daydream-dragons300x320.jpg": "/charles-whitsteen-project/static/media/daydream-dragons300x320.2d4561cc3d9bfc7014b6.jpg",
-    "static/media/nerve-slug300x320.jpg": "/charles-whitsteen-project/static/media/nerve-slug300x320.d45cad6ebb6a4f8618c1.jpg",
-    "static/media/hobo-goblin300x320.jpg": "/charles-whitsteen-project/static/media/hobo-goblin300x320.4eda88723bfce907022a.jpg",
-    "index.html": "/charles-whitsteen-project/index.html",
-    "main.1faa0006.css.map": "/charles-whitsteen-project/static/css/main.1faa0006.css.map",
-    "main.6544c3bf.js.map": "/charles-whitsteen-project/static/js/main.6544c3bf.js.map",
-    "787.bea3a99e.chunk.js.map": "/charles-whitsteen-project/static/js/787.bea3a99e.chunk.js.map"
+    "main.css": "/whitsteen-project/static/css/main.ef791dc3.css",
+    "main.js": "/whitsteen-project/static/js/main.ed511556.js",
+    "static/js/787.bea3a99e.chunk.js": "/whitsteen-project/static/js/787.bea3a99e.chunk.js",
+    "static/media/landscape.png": "/whitsteen-project/static/media/landscape.5657aea3c8a1cc0b146f.png",
+    "static/media/insane-parade375x375.jpg": "/whitsteen-project/static/media/insane-parade375x375.6e5da413ceb41980c36c.jpg",
+    "static/media/meta-man375x375.jpg": "/whitsteen-project/static/media/meta-man375x375.4dd16b0cf0bc2564cdf4.jpg",
+    "static/media/daydream-dragons300x320.jpg": "/whitsteen-project/static/media/daydream-dragons300x320.2d4561cc3d9bfc7014b6.jpg",
+    "static/media/nerve-slug300x320.jpg": "/whitsteen-project/static/media/nerve-slug300x320.d45cad6ebb6a4f8618c1.jpg",
+    "static/media/hobo-goblin300x320.jpg": "/whitsteen-project/static/media/hobo-goblin300x320.4eda88723bfce907022a.jpg",
+    "index.html": "/whitsteen-project/index.html",
+    "main.ef791dc3.css.map": "/whitsteen-project/static/css/main.ef791dc3.css.map",
+    "main.ed511556.js.map": "/whitsteen-project/static/js/main.ed511556.js.map",
+    "787.bea3a99e.chunk.js.map": "/whitsteen-project/static/js/787.bea3a99e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1faa0006.css",
-    "static/js/main.6544c3bf.js"
+    "static/css/main.ef791dc3.css",
+    "static/js/main.ed511556.js"
   ]
 }
