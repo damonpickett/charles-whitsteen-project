@@ -510,6 +510,14 @@ h1, h2, h3 {
 
 }
 
+@media screen and (max-width: 400px) {
+
+  .collection-canvas {
+    padding: 25px 0;
+  }
+
+}
+
 @media screen and (max-width: 280px) {
 
   /* NAV */
